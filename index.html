@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +15,9 @@
         body {
             font-family: 'Inter', sans-serif;
         }
+
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
         .chart-container {
             position: relative;
             width: 100%;
@@ -24,8 +27,9 @@
             height: 300px;
             max-height: 400px;
         }
+
         .roi-chart-container {
-             position: relative;
+            position: relative;
             width: 100%;
             max-width: 500px;
             margin-left: auto;
@@ -33,20 +37,24 @@
             height: 350px;
             max-height: 450px;
         }
+
         @media (min-width: 768px) {
             .chart-container {
                 height: 400px;
             }
-             .roi-chart-container {
+
+            .roi-chart-container {
                 height: 400px;
             }
         }
+
         .stat-number {
             font-size: 3rem;
             font-weight: 700;
         }
     </style>
 </head>
+
 <body class="bg-slate-50 text-slate-800">
 
     <!-- Header & Navigation -->
@@ -54,7 +62,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="flex-shrink-0">
-                    <h1 class="text-xl font-bold text-slate-900">Web Engagement Proposal</h1>
+                    <h1 class="text-xl font-bold text-slate-900">Personalized Widgets Proposal</h1>
                 </div>
                 <nav class="hidden md:flex md:space-x-8">
                     <a href="#problem" class="text-slate-600 hover:text-blue-600 font-medium">The Problem</a>
@@ -69,10 +77,13 @@
 
     <main>
         <!-- Hero Section -->
-        <section class="bg-white">
-            <div class="max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8 text-center">
+        <section class="bg-white min-h-[85vh] flex flex-col items-center">
+            <div
+                class="max-w-7xl mx-auto py-64 min-h-[500px] px-4 sm:px-6 lg:px-8 text-center flex flex-col justify-center">
                 <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight">
-                    From Static Pages to <span class="text-blue-600">Smart Conversations</span>
+                    From Static Pages to <br /><span class="text-blue-600">Smart and Proactive Web Engagement</span>
+                    <br />for
+                    <span class="text-green-600">Customer Conversions</span> <br />
                 </h1>
                 <p class="mt-4 max-w-3xl mx-auto text-lg md:text-xl text-slate-600">
                     A proposal to drive growth with proactive web engagement strategies.
@@ -84,18 +95,23 @@
         <section id="problem" class="py-20">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">The Current Reality: Our "Leaky Bucket"</h2>
-                    <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">Our website is a powerful informational tool, but it's largely a one-way conversation. Every visitor who leaves without taking action is a potential lost customer.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">The Current Reality: Our
+                        "Leaky Bucket"</h2>
+                    <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">Our website is a powerful informational
+                        tool, but it's largely a one-way conversation. Every visitor who leaves without taking action is
+                        a potential lost customer.</p>
                 </div>
                 <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div class="text-slate-700 space-y-4">
                         <div class="p-6 bg-white rounded-xl shadow-md">
                             <h3 class="font-bold text-xl text-slate-900">The Path</h3>
-                            <p class="mt-2">Users visit, find information like rates and product details, and then they leave.</p>
+                            <p class="mt-2">Users visit, find information like rates and product details, and then they
+                                leave.</p>
                         </div>
                         <div class="p-6 bg-white rounded-xl shadow-md">
                             <h3 class="font-bold text-xl text-rose-600">The Problem</h3>
-                            <p class="mt-2">We lose a huge opportunity to engage them at the moment of peak interest. We are passively waiting for them to come back.</p>
+                            <p class="mt-2">We lose a huge opportunity to engage them at the moment of peak interest. We
+                                are passively waiting for them to come back.</p>
                         </div>
                     </div>
                     <div class="text-center">
@@ -103,31 +119,41 @@
                         <div class="chart-container">
                             <canvas id="leakyBucketChart"></canvas>
                         </div>
-                         <p class="text-sm text-slate-500 mt-2">A visual representation of how visitors are lost at each step.</p>
+                        <p class="text-sm text-slate-500 mt-2">A visual representation of how visitors are lost at each
+                            step.</p>
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <!-- NEW Section: Why it matters -->
         <section id="importance" class="py-20 bg-blue-50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">The Power of Peak Interest: Grabbing Attention</h2>
-                    <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">In a crowded digital world, attention is a currency we must earn. The key is not to interrupt, but to engage at the moment a user is most curious.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">The Power of Peak Interest:
+                        Grabbing Attention</h2>
+                    <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">In a crowded digital world, attention is a
+                        currency we must earn. The key is not to interrupt, but to engage at the moment a user is most
+                        curious.</p>
                 </div>
                 <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div class="space-y-6">
                         <h3 class="text-2xl font-bold text-slate-800">Earning, Not Demanding, Attention</h3>
-                        <p class="text-slate-700">As marketing principles from books like "Earn It" suggest, the most effective engagement feels helpful, not intrusive. An immediate pop-up can be annoying and counterproductive. However, a strategically timed widget that appears after a user has shown interest (e.g., after 5-7 seconds of reading) is perceived as a helpful guide.</p>
-                        <p class="text-slate-700">This brief delay respects the user's initial exploration and offers value at the precise moment they are most receptive, dramatically increasing the chances of a positive interaction and conversion.</p>
+                        <p class="text-slate-700">As marketing principles from books like "Earn It" suggest, the most
+                            effective engagement feels helpful, not intrusive. An immediate pop-up can be annoying and
+                            counterproductive. However, a strategically timed widget that appears after a user has shown
+                            interest (e.g., after 5-7 seconds of reading) is perceived as a helpful guide.</p>
+                        <p class="text-slate-700">This brief delay respects the user's initial exploration and offers
+                            value at the precise moment they are most receptive, dramatically increasing the chances of
+                            a positive interaction and conversion.</p>
                     </div>
                     <div class="text-center">
                         <h3 class="text-2xl font-semibold mb-4 text-slate-800">Impact of Widget Timing on ROI</h3>
                         <div class="roi-chart-container">
                             <canvas id="roiChart"></canvas>
                         </div>
-                        <p class="text-sm text-slate-500 mt-2">Strategically timed widgets significantly outperform other methods.</p>
+                        <p class="text-sm text-slate-500 mt-2">Strategically timed widgets significantly outperform
+                            other methods.</p>
                     </div>
                 </div>
             </div>
@@ -137,22 +163,31 @@
         <section id="solution" class="py-20 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">The Solution: Proactive, Personalized Engagement</h2>
-                    <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">We need to shift from a passive digital presence to an active one. Here's how.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">The Solution: Proactive,
+                        Personalized Engagement</h2>
+                    <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">We need to shift from a passive digital
+                        presence to an active one. Here's how.</p>
                 </div>
                 <div class="mt-16">
-                    <h3 class="text-2xl font-bold text-center mb-10">Part 1: On-Site Widgets - The Ultimate Conversation Starter</h3>
+                    <h3 class="text-2xl font-bold text-center mb-10">Part 1: On-Site Widgets - The Ultimate Conversation
+                        Starter</h3>
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
                         <!-- GIC Rates Widget -->
                         <div class="bg-slate-100 p-8 rounded-xl shadow-lg">
-                            <h4 class="text-xl font-semibold text-slate-900">Demonstration: Utility Widget (The Hook)</h4>
-                            <p class="mt-2 text-slate-600 mb-6">Provide instant, valuable information like current investment rates. This builds trust and guides users to our products. Click to see an example:</p>
-                            <button id="showGicWidgetBtn" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                            <h4 class="text-xl font-semibold text-slate-900">Demonstration: Utility Widget (The Hook)
+                            </h4>
+                            <p class="mt-2 text-slate-600 mb-6">Provide instant, valuable information like current
+                                investment rates. This builds trust and guides users to our products. Click to see an
+                                example:</p>
+                            <button id="showGicWidgetBtn"
+                                class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                                 View Current GIC Rates
                             </button>
-                            <div id="gicWidgetCard" class="hidden mt-6 bg-white rounded-lg shadow-xl ring-1 ring-black ring-opacity-5 overflow-hidden">
+                            <div id="gicWidgetCard"
+                                class="hidden mt-6 bg-white rounded-lg shadow-xl ring-1 ring-black ring-opacity-5 overflow-hidden">
                                 <div class="p-6">
-                                    <h5 class="text-lg font-bold text-center text-slate-800">Guaranteed Investment Certificate (GIC)</h5>
+                                    <h5 class="text-lg font-bold text-center text-slate-800">Guaranteed Investment
+                                        Certificate (GIC)</h5>
                                     <div class="mt-4 pt-4 border-t border-slate-200 text-center">
                                         <p class="text-5xl font-extrabold text-blue-600">6.60%</p>
                                         <p class="text-sm text-slate-500">General (18 Months &lt; 2 Yrs)</p>
@@ -161,10 +196,12 @@
                                         <p class="text-5xl font-extrabold text-green-600">7.10%</p>
                                         <p class="text-sm text-slate-500">Sr. Citizen (18 Months &lt; 2 Yrs)</p>
                                     </div>
-                                    <p class="text-center mt-4"><a href="#" class="text-sm font-medium text-blue-600 hover:underline">More Rates</a></p>
+                                    <p class="text-center mt-4"><a href="#"
+                                            class="text-sm font-medium text-blue-600 hover:underline">More Rates</a></p>
                                 </div>
                                 <div class="p-4 bg-slate-50">
-                                    <button class="w-full inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-slate-700 hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500">
+                                    <button
+                                        class="w-full inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-slate-700 hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500">
                                         Open a GIC
                                     </button>
                                 </div>
@@ -174,51 +211,79 @@
                         <div class="space-y-8">
                             <div>
                                 <h4 class="text-xl font-semibold text-slate-900">Content Cards (The Guide)</h4>
-                                <p class="mt-2 text-slate-600">Small, contextual notifications that appear based on user behavior to guide and support them. Banks like Axis Bank use these to highlight features and drive adoption.</p>
-                                <button id="showContentCardBtn" class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Trigger Example Card</button>
-                                
-                                <div id="contentCard" class="hidden mt-4 max-w-sm ml-auto p-4 bg-white rounded-lg shadow-xl ring-1 ring-black ring-opacity-5">
+                                <p class="mt-2 text-slate-600">Small, contextual notifications that appear based on user
+                                    behavior to guide and support them. Banks like Axis Bank use these to highlight
+                                    features and drive adoption.</p>
+                                <button id="showContentCardBtn"
+                                    class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Trigger
+                                    Example Card</button>
+
+                                <div id="contentCard"
+                                    class="hidden mt-4 max-w-sm ml-auto p-4 bg-white rounded-lg shadow-xl ring-1 ring-black ring-opacity-5">
                                     <p class="font-bold">New Feature!</p>
-                                    <p class="text-sm text-slate-600">Did you know you can deposit a check with your camera? Tap here to learn how.</p>
+                                    <p class="text-sm text-slate-600">Did you know you can deposit a check with your
+                                        camera? Tap here to learn how.</p>
                                 </div>
                             </div>
-                             <div>
+                            <div>
                                 <h4 class="text-xl font-semibold text-slate-900">Promotional Widgets (The Closer)</h4>
-                                <p class="mt-2 text-slate-600">Time-sensitive offers that create urgency and encourage action. A key strategy for FinTechs like Revolut and Monzo.</p>
-                                 <button id="showPromoWidgetBtn" class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">Trigger Promo Widget</button>
-                                 <div id="promoWidget" class="hidden mt-4 max-w-sm ml-auto p-4 bg-blue-600 text-white rounded-lg shadow-xl">
+                                <p class="mt-2 text-slate-600">Time-sensitive offers that create urgency and encourage
+                                    action. A key strategy for FinTechs like Revolut and Monzo.</p>
+                                <button id="showPromoWidgetBtn"
+                                    class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">Trigger
+                                    Promo Widget</button>
+                                <div id="promoWidget"
+                                    class="hidden mt-4 max-w-sm ml-auto p-4 bg-blue-600 text-white rounded-lg shadow-xl">
                                     <p class="font-bold">Limited Time Offer!</p>
-                                    <p class="text-sm">Open a new checking account online and get a $300 bonus. Offer ends Friday!</p>
+                                    <p class="text-sm">Open a new checking account online and get a $300 bonus. Offer
+                                        ends Friday!</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="mt-20 pt-10 border-t border-slate-200">
-                        <h3 class="text-2xl font-bold text-center mb-10">Part 2: Interactive Tools Widget - Re-Engaging the Lost User</h3>
+                        <h3 class="text-2xl font-bold text-center mb-10">Part 2: Interactive Tools Widget - Re-Engaging
+                            the Lost User</h3>
                         <div class="max-w-4xl mx-auto text-center">
-                            <p class="text-slate-600 max-w-3xl mx-auto">The challenge: Users researching articles don't engage with the site immediately, resulting in a lost user. Solution: an interactive tools widget that provides personalized assistance and prompts re-engagement.</p>
+                            <p class="text-slate-600 max-w-3xl mx-auto">The challenge: Users researching articles don't
+                                engage with the site immediately, resulting in a lost user. Solution: an interactive
+                                tools widget that provides personalized assistance and prompts re-engagement.</p>
                             <div class="mt-8 p-6 bg-slate-100 rounded-xl shadow-lg">
                                 <h4 class="font-semibold text-slate-800">Demonstration: See It in Action</h4>
-                                <p class="text-sm text-slate-600 mb-4">Click below to simulate an interactive tools widget appearing to assist a user.</p>
-                                <button id="showToolsBtn" class="bg-white text-slate-700 px-4 py-2 rounded-md shadow hover:bg-slate-200 font-medium">Show Interactive Tools</button>
-                                <div id="interactiveToolsContainer" class="hidden mt-6 grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+                                <p class="text-sm text-slate-600 mb-4">Click below to simulate an interactive tools
+                                    widget appearing to assist a user.</p>
+                                <button id="showToolsBtn"
+                                    class="bg-white text-slate-700 px-4 py-2 rounded-md shadow hover:bg-slate-200 font-medium">Show
+                                    Interactive Tools</button>
+                                <div id="interactiveToolsContainer"
+                                    class="hidden mt-6 grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
                                     <div class="bg-white p-6 rounded-lg shadow-md">
                                         <h5 class="font-bold text-lg text-slate-800 mb-4">Savings Calculator</h5>
                                         <div class="space-y-3">
                                             <div>
-                                                <label for="initialDeposit" class="block text-sm font-medium text-slate-700">Initial Deposit ($)</label>
-                                                <input type="number" id="initialDeposit" value="1000" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                                                <label for="initialDeposit"
+                                                    class="block text-sm font-medium text-slate-700">Initial Deposit
+                                                    ($)</label>
+                                                <input type="number" id="initialDeposit" value="1000"
+                                                    class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
                                             </div>
                                             <div>
-                                                <label for="savingsRate" class="block text-sm font-medium text-slate-700">Annual Rate (%)</label>
-                                                <input type="number" id="savingsRate" step="0.1" value="4.5" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                                                <label for="savingsRate"
+                                                    class="block text-sm font-medium text-slate-700">Annual Rate
+                                                    (%)</label>
+                                                <input type="number" id="savingsRate" step="0.1" value="4.5"
+                                                    class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
                                             </div>
                                             <div>
-                                                <label for="savingsYears" class="block text-sm font-medium text-slate-700">Years to Grow</label>
-                                                <input type="number" id="savingsYears" value="5" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                                                <label for="savingsYears"
+                                                    class="block text-sm font-medium text-slate-700">Years to
+                                                    Grow</label>
+                                                <input type="number" id="savingsYears" value="5"
+                                                    class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
                                             </div>
-                                            <button id="calculateSavingsBtn" class="w-full bg-blue-600 text-white px-4 py-2 rounded-md shadow hover:bg-blue-700 font-medium">Calculate</button>
+                                            <button id="calculateSavingsBtn"
+                                                class="w-full bg-blue-600 text-white px-4 py-2 rounded-md shadow hover:bg-blue-700 font-medium">Calculate</button>
                                             <div class="pt-2 text-center">
                                                 <p class="text-base font-medium text-slate-800">Future Value:</p>
                                                 <p id="futureValue" class="text-2xl font-bold text-blue-600"></p>
@@ -228,11 +293,21 @@
                                     <div class="bg-white p-6 rounded-lg shadow-md">
                                         <h5 class="font-bold text-lg text-slate-800 mb-4">Explore Our Credit Cards</h5>
                                         <ul class="space-y-3">
-                                            <li><a href="#" class="block p-3 rounded-md hover:bg-slate-100 text-blue-600 font-medium">➔ Platinum Rewards Card</a></li>
-                                            <li><a href="#" class="block p-3 rounded-md hover:bg-slate-100 text-blue-600 font-medium">➔ Premium Cash Back Card</a></li>
-                                            <li><a href="#" class="block p-3 rounded-md hover:bg-slate-100 text-blue-600 font-medium">➔ Travel Miles Card</a></li>
-                                            <li><a href="#" class="block p-3 rounded-md hover:bg-slate-100 text-blue-600 font-medium">➔ Student Advantage Card</a></li>
-                                            <li><a href="#" class="block p-3 rounded-md hover:bg-slate-100 text-blue-600 font-medium">➔ Business Owner Card</a></li>
+                                            <li><a href="#"
+                                                    class="block p-3 rounded-md hover:bg-slate-100 text-blue-600 font-medium">➔
+                                                    Platinum Rewards Card</a></li>
+                                            <li><a href="#"
+                                                    class="block p-3 rounded-md hover:bg-slate-100 text-blue-600 font-medium">➔
+                                                    Premium Cash Back Card</a></li>
+                                            <li><a href="#"
+                                                    class="block p-3 rounded-md hover:bg-slate-100 text-blue-600 font-medium">➔
+                                                    Travel Miles Card</a></li>
+                                            <li><a href="#"
+                                                    class="block p-3 rounded-md hover:bg-slate-100 text-blue-600 font-medium">➔
+                                                    Student Advantage Card</a></li>
+                                            <li><a href="#"
+                                                    class="block p-3 rounded-md hover:bg-slate-100 text-blue-600 font-medium">➔
+                                                    Business Owner Card</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -247,8 +322,10 @@
         <section id="data" class="py-20">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">The Data: This Drives Real Conversions</h2>
-                    <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">This isn't theoretical. The data proves this works for high-value conversions. (Source: iZooto & MoEngage Case Studies)</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">The Data: This Drives Real
+                        Conversions</h2>
+                    <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">This isn't theoretical. The data proves
+                        this works for high-value conversions. (Source: iZooto & MoEngage Case Studies)</p>
                 </div>
                 <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
                     <div class="bg-white p-8 rounded-xl shadow-lg">
@@ -269,56 +346,70 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- Section 4: User Journey & Impact -->
         <section id="journey" class="py-20 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                 <div class="text-center">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">A Strategic User Journey</h2>
-                    <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">Let's visualize how these tools work together to create a seamless conversion path.</p>
+                <div class="text-center">
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">A Strategic User Journey
+                    </h2>
+                    <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">Let's visualize how these tools work
+                        together to create a seamless conversion path.</p>
                 </div>
                 <div class="mt-12 max-w-4xl mx-auto space-y-8">
                     <!-- Step 1 -->
                     <div class="flex items-start space-x-4">
                         <div class="flex flex-col items-center">
-                           <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">1</div>
-                           <div class="w-1 h-24 bg-slate-300"></div>
+                            <div
+                                class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                                1</div>
+                            <div class="w-1 h-24 bg-slate-300"></div>
                         </div>
                         <div class="pt-2">
-                           <h3 class="font-bold text-xl text-slate-900">VISIT & ENGAGE</h3>
-                           <p class="text-slate-600">A new user lands on our mortgage page and engages with the interactive **Mortgage Calculator Widget**.</p>
+                            <h3 class="font-bold text-xl text-slate-900">VISIT & ENGAGE</h3>
+                            <p class="text-slate-600">A new user lands on our mortgage page and engages with the
+                                interactive **Mortgage Calculator Widget**.</p>
                         </div>
                     </div>
-                     <!-- Step 2 -->
+                    <!-- Step 2 -->
                     <div class="flex items-start space-x-4">
                         <div class="flex flex-col items-center">
-                           <div class="w-12 h-12 bg-rose-600 text-white rounded-full flex items-center justify-center font-bold text-xl">2</div>
-                           <div class="w-1 h-24 bg-slate-300"></div>
+                            <div
+                                class="w-12 h-12 bg-rose-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                                2</div>
+                            <div class="w-1 h-24 bg-slate-300"></div>
                         </div>
                         <div class="pt-2">
-                           <h3 class="font-bold text-xl text-slate-900">ABANDON</h3>
-                           <p class="text-slate-600">They start the pre-qualification form but get busy and close the tab.</p>
+                            <h3 class="font-bold text-xl text-slate-900">ABANDON</h3>
+                            <p class="text-slate-600">They start the pre-qualification form but get busy and close the
+                                tab.</p>
                         </div>
                     </div>
-                     <!-- Step 3 -->
+                    <!-- Step 3 -->
                     <div class="flex items-start space-x-4">
                         <div class="flex flex-col items-center">
-                           <div class="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-xl">3</div>
-                           <div class="w-1 h-24 bg-slate-300"></div>
+                            <div
+                                class="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                                3</div>
+                            <div class="w-1 h-24 bg-slate-300"></div>
                         </div>
                         <div class="pt-2">
-                           <h3 class="font-bold text-xl text-slate-900">RE-ENGAGE</h3>
-                           <p class="text-slate-600">24 hours later, they receive a **Web Push Notification**: "Still exploring your mortgage options? Secure your rate in 5 minutes."</p>
+                            <h3 class="font-bold text-xl text-slate-900">RE-ENGAGE</h3>
+                            <p class="text-slate-600">24 hours later, they receive a **Web Push Notification**: "Still
+                                exploring your mortgage options? Secure your rate in 5 minutes."</p>
                         </div>
                     </div>
-                     <!-- Step 4 -->
+                    <!-- Step 4 -->
                     <div class="flex items-start space-x-4">
                         <div class="flex flex-col items-center">
-                           <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">4</div>
+                            <div
+                                class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                                4</div>
                         </div>
                         <div class="pt-2">
-                           <h3 class="font-bold text-xl text-slate-900">CONVERT & ONBOARD</h3>
-                           <p class="text-slate-600">They click, complete the form, and upon logging in, are greeted with a **Content Card**: "Welcome! Here's how to track your application status."</p>
+                            <h3 class="font-bold text-xl text-slate-900">CONVERT & ONBOARD</h3>
+                            <p class="text-slate-600">They click, complete the form, and upon logging in, are greeted
+                                with a **Content Card**: "Welcome! Here's how to track your application status."</p>
                         </div>
                     </div>
                 </div>
@@ -330,36 +421,45 @@
         <section id="proposal" class="py-20">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Next Steps & Discussion</h2>
-                    <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">We propose a focused, two-part pilot program to prove the value of this strategy.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Next Steps & Discussion
+                    </h2>
+                    <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">We propose a focused, two-part pilot
+                        program to prove the value of this strategy.</p>
                 </div>
                 <div class="mt-12 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-blue-600">
                         <h3 class="text-2xl font-bold text-slate-900">Phase 1: The Promo Widget (Q1)</h3>
-                        <p class="mt-4 text-slate-600"><span class="font-semibold">Project:</span> Develop and deploy an interactive Promo Widget on our homepage.</p>
-                        <p class="mt-2 text-slate-600"><span class="font-semibold">Goal:</span> Measure the increase in qualified leads generated from this page.</p>
+                        <p class="mt-4 text-slate-600"><span class="font-semibold">Project:</span> Develop and deploy an
+                            interactive Promo Widget on our homepage.</p>
+                        <p class="mt-2 text-slate-600"><span class="font-semibold">Goal:</span> Measure the increase in
+                            qualified leads generated from this page.</p>
                     </div>
-                     <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-green-600">
+                    <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-green-600">
                         <h3 class="text-2xl font-bold text-slate-900">Phase 2: The Recovery Campaign (Q2)</h3>
-                        <p class="mt-4 text-slate-600"><span class="font-semibold">Project:</span> Implement a widgets on high traffic pages with right interactive tools to target audience, like savings calculator on savings account page.</p>
+                        <p class="mt-4 text-slate-600"><span class="font-semibold">Project:</span> Implement a widgets
+                            on high traffic pages with right interactive tools to target audience, like savings
+                            calculator on savings account page.</p>
                     </div>
                 </div>
-              
+
                 <div class="mt-12 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-blue-600">
                         <h3 class="text-2xl font-bold text-slate-900">Phase 1: The Smart promo Widget (Q3)</h3>
-                        <p class="mt-4 text-slate-600"><span class="font-semibold">Project:</span> Develop and deploy an highly smart widget which reads the seo of the page and show accurate offer, depending on the page user is interaction with.</p>
-                        <p class="mt-2 text-slate-600"><span class="font-semibold">Goal:</span> Measure the increase in qualified leads generated from this page.</p>
+                        <p class="mt-4 text-slate-600"><span class="font-semibold">Project:</span> Develop and deploy an
+                            highly smart widget which reads the seo of the page and show accurate offer, depending on
+                            the page user is interaction with.</p>
+                        <p class="mt-2 text-slate-600"><span class="font-semibold">Goal:</span> Measure the increase in
+                            qualified leads generated from this page.</p>
                     </div>
                 </div>
                 <div class="mt-12 text-center">
-                     <p class="text-xl font-bold text-slate-800">Let's open it up for discussion.</p>
+                    <p class="text-xl font-bold text-slate-800">Let's open it up for discussion.</p>
                 </div>
             </div>
         </section>
 
     </main>
-    
+
     <footer class="bg-slate-800 text-white">
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 text-center">
             <p>&copy; 2025 Our Bank. Confidential Proposal.</p>
@@ -371,7 +471,7 @@
         document.addEventListener('DOMContentLoaded', function () {
             // Leaky Bucket Chart
             const leakyBucketCtx = document.getElementById('leakyBucketChart');
-            if(leakyBucketCtx) {
+            if (leakyBucketCtx) {
                 new Chart(leakyBucketCtx, {
                     type: 'doughnut',
                     data: {
@@ -398,7 +498,7 @@
                             },
                             tooltip: {
                                 callbacks: {
-                                    label: function(context) {
+                                    label: function (context) {
                                         return `${context.label}: ${context.raw}%`;
                                     }
                                 }
@@ -418,7 +518,7 @@
                         datasets: [{
                             label: 'Relative ROI Increase',
                             data: [1, 0.8, 2.5],
-                             backgroundColor: [
+                            backgroundColor: [
                                 'rgba(100, 116, 139, 0.7)',
                                 'rgba(239, 68, 68, 0.7)',
                                 'rgba(34, 197, 94, 0.7)'
@@ -449,7 +549,7 @@
                             },
                             tooltip: {
                                 callbacks: {
-                                    label: function(context) {
+                                    label: function (context) {
                                         return ` ROI: ${context.raw}x`;
                                     }
                                 }
@@ -462,8 +562,8 @@
             // GIC Widget Simulation
             const showGicWidgetBtn = document.getElementById('showGicWidgetBtn');
             const gicWidgetCard = document.getElementById('gicWidgetCard');
-            if(showGicWidgetBtn) {
-                 showGicWidgetBtn.addEventListener('click', () => {
+            if (showGicWidgetBtn) {
+                showGicWidgetBtn.addEventListener('click', () => {
                     gicWidgetCard.classList.toggle('hidden');
                 });
             }
@@ -471,8 +571,8 @@
             // Widget Simulations
             const showContentCardBtn = document.getElementById('showContentCardBtn');
             const contentCard = document.getElementById('contentCard');
-            if(showContentCardBtn) {
-                 showContentCardBtn.addEventListener('click', () => {
+            if (showContentCardBtn) {
+                showContentCardBtn.addEventListener('click', () => {
                     contentCard.classList.remove('hidden');
                     setTimeout(() => contentCard.classList.add('hidden'), 4000);
                 });
@@ -480,23 +580,23 @@
 
             const showPromoWidgetBtn = document.getElementById('showPromoWidgetBtn');
             const promoWidget = document.getElementById('promoWidget');
-            if(showPromoWidgetBtn) {
+            if (showPromoWidgetBtn) {
                 showPromoWidgetBtn.addEventListener('click', () => {
                     promoWidget.classList.remove('hidden');
                     setTimeout(() => promoWidget.classList.add('hidden'), 4000);
                 });
             }
-            
+
             // Interactive Tools Simulation
             const showToolsBtn = document.getElementById('showToolsBtn');
             const interactiveToolsContainer = document.getElementById('interactiveToolsContainer');
             const calculateSavingsBtn = document.getElementById('calculateSavingsBtn');
-            
+
             function calculateSavings() {
                 const principal = parseFloat(document.getElementById('initialDeposit').value) || 0;
                 const rate = parseFloat(document.getElementById('savingsRate').value) / 100 || 0;
                 const years = parseInt(document.getElementById('savingsYears').value) || 0;
-                
+
                 if (principal > 0 && rate >= 0 && years > 0) {
                     const amount = principal * Math.pow((1 + rate), years);
                     document.getElementById('futureValue').textContent = amount.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
@@ -526,10 +626,10 @@
                     if (!startTimestamp) startTimestamp = timestamp;
                     const progress = Math.min((timestamp - startTimestamp) / duration, 1);
                     obj.innerHTML = Math.floor(progress * (end - start) + start).toLocaleString();
-                     if (obj.dataset.target > 20) { // If it's not a percentage
+                    if (obj.dataset.target > 20) { // If it's not a percentage
                         obj.innerHTML = Math.floor(progress * (end - start) + start).toLocaleString();
                     } else { // It's a percentage, add the % sign
-                         obj.innerHTML = `${Math.floor(progress * (end - start) + start)}<span class="text-3xl">%</span>`;
+                        obj.innerHTML = `${Math.floor(progress * (end - start) + start)}<span class="text-3xl">%</span>`;
                     }
                     if (progress < 1) {
                         window.requestAnimationFrame(step);
@@ -555,5 +655,5 @@
         });
     </script>
 </body>
-</html>
 
+</html>
