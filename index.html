@@ -69,9 +69,10 @@
                     <a href="#importance" class="text-slate-600 hover:text-blue-600 font-medium">Why It Matters</a>
                     <a href="#inspiration" class="text-slate-600 hover:text-blue-600 font-medium">Inspiration</a>
                     <a href="#examples" class="text-slate-600 hover:text-blue-600 font-medium">Demonstration</a>
-                    <a href="#proposal" class="text-slate-600 hover:text-blue-600 font-medium">The Proposal</a>
-                    <a href="#data" class="text-slate-600 hover:text-blue-600 font-medium">The Data</a>
-                    <a href="#casestudies" class="text-slate-600 hover:text-blue-600 font-medium">Case Studies</a>
+
+                    <a href="#journey" class="text-slate-600 hover:text-blue-600 font-medium">User Journey</a>
+                    <a href="#proposal" class="text-slate-600 hover:text-blue-600 font-medium">Proposal/Roadmap</a>
+                    <a href="#data" class="text-slate-600 hover:text-blue-600 font-medium">Data Backing</a>
                 </nav>
             </div>
         </div>
@@ -343,6 +344,28 @@
                         Personalized Engagement</h2>
                     <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">We need to shift from a passive digital
                         presence to an active one. Here's how.</p>
+
+                    <!-- Added Note -->
+                    <div
+                        class="max-w-3xl mx-auto mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 text-yellow-800 text-left rounded-r-lg">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <svg class="h-5 w-5 text-yellow-500" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M8.257 3.099c.636-1.21 2.85-1.21 3.486 0l5.58 10.655c.636 1.21-.464 2.746-1.743 2.746H4.42c-1.28 0-2.379-1.536-1.743-2.746L8.257 3.099zM10 14a1 1 0 110-2 1 1 0 010 2zm-1-4a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="ml-3">
+                                <p class="text-sm">
+                                    <span class="font-bold">Please Note:</span> The demonstrations that follow are
+                                    functional Proofs of Concept (POCs). The final design, branding, and user experience
+                                    will require a formal review by the UI/UX team before implementation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- Live Demo Section -->
                 <div class="bg-green-50 p-8 rounded-xl shadow-lg border-l-4 border-green-500 col-span-1 lg:col-span-2">
@@ -497,107 +520,222 @@
         <section id="journey" class="py-20 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">A Strategic User Journey
-                    </h2>
-                    <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">Let's visualize how these tools work
-                        together to create a seamless conversion path.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Two Paths to Conversion:
+                        Strategic User Journeys</h2>
+                    <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">Let's visualize how these different tools
+                        guide users toward conversion in different scenarios.</p>
                 </div>
-                <div class="mt-12 max-w-4xl mx-auto space-y-8">
-                    <!-- Step 1 -->
-                    <div class="flex items-start space-x-4">
-                        <div class="flex flex-col items-center">
-                            <div
-                                class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
-                                1</div>
-                            <div class="w-1 h-24 bg-slate-300"></div>
-                        </div>
-                        <div class="pt-2">
-                            <h3 class="font-bold text-xl text-slate-900">VISIT & ENGAGE</h3>
-                            <p class="text-slate-600">A new user lands on our mortgage page and engages with the
-                                interactive **Mortgage Calculator Widget**.</p>
+                <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+                    <!-- Journey 1: On-Site Widgets -->
+                    <div class="bg-slate-50 p-8 rounded-xl shadow-lg">
+                        <h3 class="text-2xl font-bold text-center text-slate-800 mb-8">Journey 1: On-Site Promo Widgets
+                        </h3>
+                        <div class="space-y-8">
+                            <!-- Step 1 -->
+                            <div class="flex items-start space-x-4">
+                                <div class="flex flex-col items-center">
+                                    <div
+                                        class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                                        1</div>
+                                    <div class="w-1 h-24 bg-slate-300"></div>
+                                </div>
+                                <div class="pt-2">
+                                    <h4 class="font-bold text-xl text-slate-900">VISIT & EXPLORE</h4>
+                                    <p class="text-slate-600">A user lands on a mortgage page to research rates.</p>
+                                </div>
+                            </div>
+                            <!-- Step 2 -->
+                            <div class="flex items-start space-x-4">
+                                <div class="flex flex-col items-center">
+                                    <div
+                                        class="w-12 h-12 bg-sky-500 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                                        2</div>
+                                    <div class="w-1 h-24 bg-slate-300"></div>
+                                </div>
+                                <div class="pt-2">
+                                    <h4 class="font-bold text-xl text-slate-900">ENGAGE (Utility)</h4>
+                                    <p class="text-slate-600">After a few seconds, a helpful **Calculator Widget**
+                                        appears. The user engages with it to estimate their monthly payments.</p>
+                                </div>
+                            </div>
+                            <!-- Step 3 -->
+                            <div class="flex items-start space-x-4">
+                                <div class="flex flex-col items-center">
+                                    <div
+                                        class="w-12 h-12 bg-teal-500 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                                        3</div>
+                                    <div class="w-1 h-24 bg-slate-300"></div>
+                                </div>
+                                <div class="pt-2">
+                                    <h4 class="font-bold text-xl text-slate-900">GUIDE (Content Card)</h4>
+                                    <p class="text-slate-600">As they scroll, a **Content Card** offers a "Free Guide to
+                                        First-Time Homebuying," building trust and capturing a lead.</p>
+                                </div>
+                            </div>
+                            <!-- Step 4 -->
+                            <div class="flex items-start space-x-4">
+                                <div class="flex flex-col items-center">
+                                    <div
+                                        class="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                                        4</div>
+                                </div>
+                                <div class="pt-2">
+                                    <h4 class="font-bold text-xl text-slate-900">CONVERT (Promo)</h4>
+                                    <p class="text-slate-600">Finally, a **Promotional Widget** appears with a
+                                        limited-time rate offer, creating urgency and prompting the user to "Apply Now."
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- Step 2 -->
-                    <div class="flex items-start space-x-4">
-                        <div class="flex flex-col items-center">
-                            <div
-                                class="w-12 h-12 bg-rose-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
-                                2</div>
-                            <div class="w-1 h-24 bg-slate-300"></div>
-                        </div>
-                        <div class="pt-2">
-                            <h3 class="font-bold text-xl text-slate-900">ABANDON</h3>
-                            <p class="text-slate-600">They start the pre-qualification form but get busy and close the
-                                tab.</p>
+
+                    <!-- Journey 2: Web Push Notifications -->
+                    <div class="bg-slate-50 p-8 rounded-xl shadow-lg">
+                        <h3 class="text-2xl font-bold text-center text-slate-800 mb-8">Journey 2: Web Push Notifications
+                        </h3>
+                        <div class="space-y-8">
+                            <!-- Step 1 -->
+                            <div class="flex items-start space-x-4">
+                                <div class="flex flex-col items-center">
+                                    <div
+                                        class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                                        1</div>
+                                    <div class="w-1 h-24 bg-slate-300"></div>
+                                </div>
+                                <div class="pt-2">
+                                    <h4 class="font-bold text-xl text-slate-900">VISIT & RESEARCH</h4>
+                                    <p class="text-slate-600">A user reads a blog post on the "Benefits of High-Yield
+                                        Savings Accounts."</p>
+                                </div>
+                            </div>
+                            <!-- Step 2 -->
+                            <div class="flex items-start space-x-4">
+                                <div class="flex flex-col items-center">
+                                    <div
+                                        class="w-12 h-12 bg-sky-500 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                                        2</div>
+                                    <div class="w-1 h-24 bg-slate-300"></div>
+                                </div>
+                                <div class="pt-2">
+                                    <h4 class="font-bold text-xl text-slate-900">PERMISSION</h4>
+                                    <p class="text-slate-600">Before leaving, an on-site prompt asks, "Get notified
+                                        about rate changes?" The user clicks **"Allow."**</p>
+                                </div>
+                            </div>
+                            <!-- Step 3 -->
+                            <div class="flex items-start space-x-4">
+                                <div class="flex flex-col items-center">
+                                    <div
+                                        class="w-12 h-12 bg-rose-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                                        3</div>
+                                    <div class="w-1 h-24 bg-slate-300"></div>
+                                </div>
+                                <div class="pt-2">
+                                    <h4 class="font-bold text-xl text-slate-900">ABANDON</h4>
+                                    <p class="text-slate-600">The user gets busy and leaves the website without opening
+                                        an account.</p>
+                                </div>
+                            </div>
+                            <!-- Step 4 -->
+                            <div class="flex items-start space-x-4">
+                                <div class="flex flex-col items-center">
+                                    <div
+                                        class="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                                        4</div>
+                                </div>
+                                <div class="pt-2">
+                                    <h4 class="font-bold text-xl text-slate-900">RE-ENGAGE & CONVERT</h4>
+                                    <p class="text-slate-600">A week later, a **Web Push Notification** appears on their
+                                        desktop: "Good news! Our savings rate just increased to 4.5% APY." They click,
+                                        return to the site, and open an account.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- Step 3 -->
-                    <div class="flex items-start space-x-4">
-                        <div class="flex flex-col items-center">
-                            <div
-                                class="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
-                                3</div>
-                            <div class="w-1 h-24 bg-slate-300"></div>
-                        </div>
-                        <div class="pt-2">
-                            <h3 class="font-bold text-xl text-slate-900">RE-ENGAGE</h3>
-                            <p class="text-slate-600">24 hours later, they receive a **Web Push Notification**: "Still
-                                exploring your mortgage options? Secure your rate in 5 minutes."</p>
-                        </div>
-                    </div>
-                    <!-- Step 4 -->
-                    <div class="flex items-start space-x-4">
-                        <div class="flex flex-col items-center">
-                            <div
-                                class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
-                                4</div>
-                        </div>
-                        <div class="pt-2">
-                            <h3 class="font-bold text-xl text-slate-900">CONVERT & ONBOARD</h3>
-                            <p class="text-slate-600">They click, complete the form, and upon logging in, are greeted
-                                with a **Content Card**: "Welcome! Here's how to track your application status."</p>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>
         <!-- Section 5: The Proposal -->
+        <!-- Section 5: The Proposal -->
         <section id="proposal" class="py-20">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center">
-                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Next Steps & Discussion
+                    <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">The Implementation Roadmap
                     </h2>
-                    <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">We propose a focused, two-part pilot
-                        program to prove the value of this strategy.</p>
+                    <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">We propose a strategic, five-phase program
+                        to incrementally build, deploy, and automate our proactive engagement toolkit.</p>
                 </div>
-                <div class="mt-12 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-blue-600">
-                        <h3 class="text-2xl font-bold text-slate-900">Phase 1: The Promo Widget (Q1)</h3>
-                        <p class="mt-4 text-slate-600"><span class="font-semibold">Project:</span> Develop and deploy an
-                            interactive Promo Widget on our homepage.</p>
-                        <p class="mt-2 text-slate-600"><span class="font-semibold">Goal:</span> Measure the increase in
-                            qualified leads generated from this page.</p>
-                    </div>
-                    <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-green-600">
-                        <h3 class="text-2xl font-bold text-slate-900">Phase 2: The Recovery Campaign (Q2)</h3>
-                        <p class="mt-4 text-slate-600"><span class="font-semibold">Project:</span> Implement a widgets
-                            on high traffic pages with right interactive tools to target audience, like savings
-                            calculator on savings account page.</p>
-                    </div>
-                </div>
+                <div class="mt-12 max-w-4xl mx-auto space-y-8">
 
-                <div class="mt-12 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-blue-600">
-                        <h3 class="text-2xl font-bold text-slate-900">Phase 1: The Smart promo Widget (Q3)</h3>
-                        <p class="mt-4 text-slate-600"><span class="font-semibold">Project:</span> Develop and deploy an
-                            highly smart widget which reads the seo of the page and show accurate offer, depending on
-                            the page user is interaction with.</p>
-                        <p class="mt-2 text-slate-600"><span class="font-semibold">Goal:</span> Measure the increase in
-                            qualified leads generated from this page.</p>
+                    <!-- Phase 1 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-blue-600">
+                        <h3 class="text-2xl font-bold text-slate-900">Phase 1: Foundational Promo Widget</h3>
+                        <p class="mt-4 text-slate-600">The first step is to build a robust, reusable promotional widget
+                            component. We will begin by using basic personalization, such as targeting new versus
+                            returning visitors, and manually configuring it to display our bank's existing,
+                            high-priority offers (e.g., a new checking account bonus) on key landing pages like the
+                            homepage. This initial phase will allow us to prove the core concept and measure the
+                            immediate lift in engagement and conversions with minimal complexity.</p>
+                        <p class="mt-3 font-semibold text-slate-800">Primary Goal: Deploy the core widget technology and
+                            establish a baseline for its ROI on a limited set of pages.</p>
                     </div>
-                </div>
-                <div class="mt-12 text-center">
-                    <p class="text-xl font-bold text-slate-800">Let's open it up for discussion.</p>
+
+                    <!-- Phase 2 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-cyan-500">
+                        <h3 class="text-2xl font-bold text-slate-900">Phase 2: Interactive Tools Deployment</h3>
+                        <p class="mt-4 text-slate-600">Building on the foundation of Phase 1, we will expand our toolkit
+                            to include interactive utility widgets. This involves developing tools like the Savings
+                            Calculator, GIC Rate Viewer, and Mortgage Calculators. We will strategically deploy these
+                            widgets on their most relevant, high-traffic pages—for example, placing the savings
+                            calculator directly on the savings account product page. This shifts our strategy from
+                            purely promotional to providing tangible value, building trust, and capturing high-intent
+                            leads.</p>
+                        <p class="mt-3 font-semibold text-slate-800">Primary Goal: Increase user engagement and lead
+                            quality by providing valuable, context-specific interactive tools.</p>
+                    </div>
+
+                    <!-- Phase 3 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-violet-500">
+                        <h3 class="text-2xl font-bold text-slate-900">Phase 3: CMS & Component Library Integration</h3>
+                        <p class="mt-4 text-slate-600">To ensure scalability and empower our marketing teams, we will
+                            integrate all our widgets into our Contentful CMS via our Next.js component library. This
+                            critical step transforms the widgets from developer-dependent features into reusable,
+                            configurable components. The marketing and content teams will be able to easily add, remove,
+                            and customize widgets on any page directly through the CMS, allowing for rapid campaign
+                            deployment and A/B testing without engineering overhead.</p>
+                        <p class="mt-3 font-semibold text-slate-800">Primary Goal: Democratize widget deployment to
+                            increase marketing agility and ensure brand consistency across the site.</p>
+                    </div>
+
+                    <!-- Phase 4 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-amber-500">
+                        <h3 class="text-2xl font-bold text-slate-900">Phase 4: Automated, SEO-Driven Offer Matching</h3>
+                        <p class="mt-4 text-slate-600">This phase introduces intelligent automation. We will develop a
+                            JavaScript-driven "relevance engine" that runs on the client-side. This script will read the
+                            key SEO elements of any given page (such as the meta title, H1 tag, and primary keywords).
+                            It will then match this contextual data against a centralized database of our existing
+                            promotional offers and automatically display the most relevant promo in the widget. This
+                            automates personalization at scale, ensuring that a user on a business banking page sees a
+                            business credit card offer, while a user on a student page sees a student account offer.</p>
+                        <p class="mt-3 font-semibold text-slate-800">Primary Goal: Automate the delivery of
+                            hyper-relevant offers across the entire website to maximize conversion rates.</p>
+                    </div>
+
+                    <!-- Phase 5 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-green-600">
+                        <h3 class="text-2xl font-bold text-slate-900">Phase 5: Web Push Notification Implementation</h3>
+                        <p class="mt-4 text-slate-600">The final phase is to build a channel for re-engagement after a
+                            user has left our site. We will implement web push notifications, which requires careful
+                            frontend and backend coordination. On the frontend, we will use a Service Worker to manage
+                            the subscription and display of notifications, following best practices from MDN
+                            documentation. The backend team will need to build the infrastructure to securely trigger
+                            these messages for key events, such as application abandonment or important rate change
+                            announcements.</p>
+                        <p class="mt-3 font-semibold text-slate-800">Primary Goal: Create a powerful, direct-to-user
+                            communication channel to recover lost leads and drive repeat traffic.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -774,6 +912,13 @@
             </div>
         </section>
 
+        <section class="flex items-center justify-center min-h-[80vh] bg-slate-100">
+            <div class="text-center max-w-2xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">Let's Open It Up for Discussion</h2>
+                <p class="text-xl text-slate-700 mb-8">We welcome your questions, feedback, and ideas.<br>
+                    How can we tailor this approach to best fit our goals?</p>
+            </div>
+        </section>
 
     </main>
 
