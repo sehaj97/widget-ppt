@@ -1,147 +1,109 @@
 
+
+### **Presentation Script (Total Time: ~19 minutes)**
+
+#### **Part 1: The Hook & The Core Problem (Time: 0:00 - 2:00)**
+
+**(Have the Hero Section of your page visible on the main screen)**
+
+"Good morning. In the next 20 minutes, Today, I want to talk about our biggest, quietest, and most expensive problem: missed opportunity.
+
+Our website is fantastic. It's a wealth of information for our customers. But for the most part, it's a one-way conversation. We publish, they read, and then... they leave. We're waiting passively for them to decide to come back. We're putting the entire burden of action on them.
+
+This is about flipping that model. It’s about shifting from a one way engagement into a **smart, proactive engine for customer conversion**."
+
+**(Scroll down to the `#problem` section with the doughnut chart)**
+
+"I call this our 'Leaky Bucket.' This chart visualizes the problem perfectly. For every 100 people who visit, we lose a huge number at each step. This isn't a failure; it's just the reality of a passive digital model.
+
+The real issue is *when* we lose them: at their moment of **peak interest**. A customer on our mortgage article page will never be more engaged with that topic. By simply showing them rates and waiting, we are leaving a significant amount of potential revenue on the table."
+
 ---
 
-**(Slide: Hero Section)**
+#### **Part 2: The New Philosophy & Its ROI (Time: 2:00 - 4:00)**
 
-**(0:00 - 2:00) Introduction & Hook**
+**(Scroll down to the `#importance` section with the ROI chart)**
 
-"Good morning, everyone. Thank you for your time.
+"So, how do we fix this without being annoying? Our new philosophy is simple: **we must earn our customer's attention, not demand it.**
+So, how do we fix this without annoying our customers with immediate pop-ups? The philosophy is simple: we must earn their attention, not demand it.
 
-Right now, our website is a fantastic library of information. Customers can come, find rates, read about products... and then they leave. We operate like a library, waiting for them to check out a book. But what if we could be more like a concierge? Someone who anticipates their needs and guides them to the right solution at the perfect moment?
+An immediate, intrusive pop-up for offer is a nuisance. But a helpful tool that appears *after* a customer has been reading for a few seconds is perceived completely differently it's seen as helpful, timely guidance.
 
-Today, I'm here to propose a fundamental shift in our digital strategy. We're going to move **from static pages to smart, proactive web engagement**. This isn't just about a new feature; it's about building an engine designed to drive **customer conversions** and deepen relationships."
+And the data is crystal clear on this. **[Point to the ROI chart on your screen]**. A strategically timed, helpful widget doesn't just work; it delivers a **2.5x greater return on investment** compared to doing nothing. This is the core of the strategy: be helpful, be timely, and convert."
 
-***
+---
 
-**(Slide: #problem - The Current Reality)**
+#### **Part 3: Aligning With Our Core Mission (Time: 4:00 - 6:00)**
 
-**(2:00 - 4:00) The Problem: Our "Leaky Bucket"**
+**(Scroll to the `#alignment` section)**
 
-"So, what's the problem we're trying to solve? I call it our 'Leaky Bucket.' Every visitor who leaves without taking action is a potential lost customer.
+"Crucially, this isn't just a tech project; it's a direct enabler of our bank's core strategic goals.
 
-*[Note: Gesture towards the "The Path" and "The Problem" cards on the left.]*
+1.  **It Deepens Customer Relationships:** By providing tools that help them plan and dream, we become a trusted partner, not just a service.
+2.  **It Accelerates Digital Sales:** These widgets are designed to seamlessly guide users from research directly to conversion, boosting our online product adoption.
+3.  **It Increases Market Share:** This allows us to compete head-to-head with the agile FinTechs on user experience, helping us win the next generation of digital-native customers.
 
-The path is simple: users visit, they research, and they leave. The problem is that we are passively waiting for them to come back, losing a massive opportunity to engage them when their interest is at its absolute peak.
+This initiative is a strategic investment in our 'Digital First' future."
 
-*[Note: Direct everyone's attention to the doughnut chart on the right.]*
+---
 
-This funnel chart visualizes the reality of that leaky bucket. We start with 100% of visitors, but by the time we get to a completed application, we're down to single digits. We're losing the vast majority along the way. Our goal is to plug these leaks by engaging users *inside* the funnel, not just hoping they make it to the end."
+#### **Part 4: The 'Wow' Moment - The Live Demonstration (Time: 6:00 - 12:00)**
 
-***
+**(This is the centerpiece. Go slow and let the visuals sink in. Scroll to the `#solution` (POC) section.)**
 
-**(Slide: #importance - The Power of Peak Interest & #alignment - Strategic Alignment)**
+"Now, let's move from theory to reality. I've built several functional Proofs of Concept to show you exactly what I mean.
 
-**(4:00 - 7:00) The Philosophy & Strategic Imperative**
+First, the **Utility Widget**. A customer is on our GIC page, curious about the best rate they can get. Instead of making them search, let's give them the answer, right now."
 
-"To plug those leaks, we need to change our philosophy. In a world saturated with ads, attention is something we must *earn*, not demand. An immediate, aggressive pop-up is an interruption. It's annoying.
+**[CLICK the "View Current GIC Rates" button. The widget appears. PAUSE for 5-10 seconds.]**
 
-But a helpful tool that appears *after* a user has spent a few seconds reading a page? That’s perceived as guidance. It’s helpful.
+"Instant value. Clear, simple, with a direct call to action. This is about building trust.
 
-*[Note: Point to the bar chart, #roiChart.]*
+Next, a **Promotional Widget**. This is the kind of tool our competitors use every day to drive acquisitions."
 
-And the data backs this up. This chart shows the relative ROI. An immediate pop-up can actually perform worse than doing nothing because it annoys people. But a strategically timed, delayed widget can more than **double the return**. It’s the difference between being a pushy salesperson and a trusted advisor.
+**[CLICK the "Trigger Promo Widget" button. The blue offer card appears. PAUSE.]**
 
-*[Note: Scroll down to the #alignment section.]*
+"Clean. Contextual. It creates urgency without being obnoxious.
 
-This approach isn't just a marketing trick; it aligns perfectly with BMO's core strategic goals.
-1.  **It Deepens Customer Relationships:** We become a helpful partner, not just a service provider.
-2.  **It Accelerates Digital Sales:** We guide users from research directly to conversion.
-3.  **And it Increases Market Share:** This is how we compete with agile FinTechs—by delivering a superior, smarter user experience."
+But where this becomes truly powerful is with **Interactive Tools**."
 
-***
+**[CLICK the "Show Interactive Tools" button. The calculator and card links appear.]**
 
-**(Slide: #inspiration - Inspired From & #examples - Live Examples)**
+"Look at this savings calculator. This isn't just a form; it's a conversation starter. It helps a customer visualize their future. And right next to it, we provide the specific products to help them get there. We are connecting their goals directly to our solutions. This is how we become essential to our customers.
 
-**(7:00 - 10:00) The Proof: Industry Leaders are Doing This**
+Finally, I've linked two live demos that bring this all together. I encourage you to explore these after the presentation to really get a feel for the seamless user experience we can create."
 
-"This isn't a theoretical concept. The most successful digital players in finance and e-commerce are already using these strategies to win.
+---
 
-*[Note: Briefly gesture across the logos in the #inspiration section.]*
+#### **Part 5: The Pragmatic Plan for Implementation (Time: 12:00 - 17:00)**
 
-FinTechs like **Revolut** are masters of the timely promotional widget. Companies like **NerdWallet** have built their entire business on helpful comparison tools. Even major retailers like **Amazon** and **Wayfair** use urgency and abandoned cart recovery to drive billions in sales. They've proven the model works.
+**(Scroll down to the `#proposal` (Roadmap) section.)**
 
-*[Note: Scroll to the #examples section.]*
+"This vision is ambitious, but our plan to get there is pragmatic and phased. We don't have to boil the ocean.
 
-And these are just a few live examples. I encourage you to visit sites like Axis Bank or Revolut later to see how seamlessly they integrate these tools into their user experience."
+**[Briefly touch on each phase, emphasizing the business value.]**
 
-***
+* **1st our Quick Win:** We build a reusable promo widget and deploy it on the homepage. This is low-hanging fruit to prove the ROI immediately.
+* **then 2nd adds Value:** We deploy the interactive tools like the savings and mortgage calculators, increasing engagement and lead quality.
+* **3rd enables Speed:** We integrate these tools into our CMS. This is critical—it empowers the marketing team to launch campaigns in hours, not weeks, without needing developers.
+* **4th introduces Intelligence:** We build a smart engine that automatically matches the best offer to the right page, scaling personalization across the entire site.
+* **And the end goal, is Recovery:** We implement Web Push Notifications to re-engage users who have left our site, recovering potentially lost leads.
 
-**(Slide: #solution - Let's Dive into our Solution)**
+Each is a logical step that builds on the last, de-risking the project and delivering value all along the way."
 
-**(10:00 - 14:00) The Solution: Proof of Concept**
+---
 
-"So, let's move from theory to practice. What would this actually look like for us? I've put together a few functional Proofs of Concept.
+#### **Part 6: The Close - The Ask & Next Steps (Time: 17:00 - 19:00)**
 
-*[Note: This is the most interactive part. Be ready to click and demonstrate.]*
+**(Scroll to the final `#qa` section.)**
 
-First, I want you to see this in a real-world scenario. I’ve created two live demo pages.
+"We have a clear, data-backed strategy that aligns perfectly with our corporate goals. We have a phased, low-risk plan to execute it. And most importantly, we have a massive opportunity to stop leaving money on the table.
 
-*[Note: Click on the "Launch Live Demo 1 & 2" buttons.]*
+As we are at the end of the fiscal year, the timing is perfect to plan for a stronger, more proactive new year. It's a modest investment to build a foundational capability that will pay dividends for years to come.
 
-The first link shows a page with a mortgage calculator—a persistent utility tool—and a promotional offer that slides in after a few seconds. The second shows another variation of an attention-grabbing widget. This simulates the exact user experience we're aiming for: providing value first, then presenting a relevant call to action.
+Let's start plugging that leaky bucket.
 
-Now, let's look at the individual components.
-
-*[Note: Scroll down to the "GIC Rates Widget" and click the "View Current GIC Rates" button.]*
-
-This is a **Utility Widget**. It's the hook. A customer researching investments gets immediate, tangible value. This builds trust and positions our products as the solution.
-
-*[Note: Scroll to the "Promotional Widgets" section and click the "Trigger Promo Widget" button.]*
-
-This is the **Promotional Widget**. It's the closer. After we've provided value, we can present a time-sensitive offer to create urgency and drive action.
-
-*[Note: Scroll down to the "Interactive Tools" section and click "Show Interactive Tools".]*
-
-Finally, here's a combined **Interactive Tool**. On the left, a savings calculator lets the user engage and see their own financial future. On the right, we provide clear, direct links to our credit card products. We're not just showing them an ad; we're helping them plan, and then showing them the tools to achieve that plan."
-
-***
-
-**(Slide: #journey - Two Paths to Conversion)**
-
-**(14:00 - 16:00) The Vision: The New User Journey**
-
-"These tools come together to create powerful new user journeys.
-
-*[Note: Point to Journey 1.]*
-
-Imagine this: A user lands on our mortgage page. A helpful calculator appears, they engage with it. As they scroll, a content card offers them a free guide. Finally, a promo widget gives them a limited-time rate. We've guided them from casual research to a confident application, all in one session.
-
-*[Note: Point to Journey 2.]*
-
-Or consider this: a user reads our blog, and before leaving, they allow notifications. A week later, when our savings rates go up, a notification appears right on their desktop. They click it, return to our site, and convert. We’ve just turned a lost visitor into a new customer, completely automatically."
-
-***
-
-**(Slide: #proposal - The Implementation Roadmap & #kpis - Measuring Success)**
-
-**(16:00 - 19:00) The Plan: Our Roadmap & How We'll Measure It**
-
-"So, how do we get there? We've designed a pragmatic, five-phase roadmap that minimizes risk and delivers value incrementally.
-
-*[Note: Briefly summarize each phase.]*
-
-* **Phase 1 & 2** are about building the **foundational promo and interactive tools**. We'll prove the concept and establish a baseline ROI.
-* **For our tech managers**, **Phase 3** is key. We'll integrate everything into a central **Next.js component library managed by our CMS**. This makes the tools scalable, reusable, and empowers our marketing teams to deploy campaigns without needing engineering resources for every change.
-* **For our product owners**, **Phase 4** is where it gets really smart. We'll build a relevance engine that **automatically matches offers to page content**, ensuring maximum relevance and conversion lift.
-* And finally, in **Phase 5**, we implement **Web Push Notifications** to build that powerful re-engagement channel.
-
-*[Note: Scroll to the #kpis section.]*
-
-And we will measure everything. We'll track **Conversion Rate Lift**, **Engagement Rate**, reductions in **Campaign Deployment Time**, and the **Application Recovery Rate** from our push notifications. Every phase is tied to a clear business outcome."
-
-***
-
-**(Slide: #risks - Addressing Risks & #qa - Q&A)**
-
-**(19:00 - 20:00) Conclusion & Discussion**
-
-"We've also proactively identified the risks. Brand inconsistency? Our central component library solves that. A negative user experience? Our 'earn it' philosophy of timed, helpful engagement prevents it. Data security? All tools will be built in-house, with full security and backend collaboration.
-
-By shifting from a passive library to an active, intelligent concierge, we can plug the leaks in our conversion funnel, build deeper relationships with our customers, and accelerate our 'Digital First' mission. We can stop waiting for customers to find their way and start guiding them.
-
-Thank you. I'd now like to open it up for discussion and welcome your questions."
-
-
+Thank you. I'd now be happy to answer any questions you may have."
 ### QA
 1.  **"What is the projected ROI on this initiative, and how long until we see a return?"**
     * **What they're really asking:** "Is this worth the investment of time and money?"
