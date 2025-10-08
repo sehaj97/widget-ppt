@@ -6,7 +6,7 @@
 
 **(Have the Hero Section of your page visible on the main screen)**
 
-"Good morning. In the next 20 minutes, Today, I want to talk about our biggest, quietest, and most expensive problem: missed opportunity.
+"Good afternoon. In the next 20 minutes, Today, I want to talk about our biggest, quietest, and most expensive problem: missed opportunity.
 
 Our website is fantastic. It's a wealth of information for our customers. But for the most part, it's a one-way conversation. We publish, they read, and then... they leave. We're waiting passively for them to decide to come back. We're putting the entire burden of action on them.
 
